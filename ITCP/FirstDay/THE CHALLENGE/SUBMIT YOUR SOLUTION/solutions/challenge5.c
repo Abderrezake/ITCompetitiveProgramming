@@ -8,8 +8,9 @@ int main (){
     int s;
     scanf("%s",&S);
     s=atoi(S);
+    if(s>0){
     printf("%d",s);
-
+    }else {printf("bad string"};
 
 
     return 0;
